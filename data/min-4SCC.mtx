@@ -1,4 +1,4 @@
-%%MatrixMarket matrix coordinate integer symmetric
+%%MatrixMarket matrix coordinate integer asymmetric
 21 21 35
 1 2 1
 2 3 1
