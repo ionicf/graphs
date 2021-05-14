@@ -9,28 +9,28 @@ download any graph. For graph drawings, see this [Photos Album].
 <br>
 
 ```bash
-!# Download graphs
-!rm -rf graphs
-!git clone https://github.com/wolfram77/graphs
-!mkdir -p ~/data && cd graphs && cp -r data/* ~/data/
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-Stanford.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-BerkStan.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-Google.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-NotreDame.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/LAW/indochina-2004.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-Slashdot0811.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-Slashdot0902.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-Epinions1.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-LiveJournal1.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coAuthorsDBLP.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coAuthorsCiteseer.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coPapersCiteseer.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coPapersDBLP.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/italy_osm.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/great-britain_osm.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/germany_osm.tar.gz
-!cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/asia_osm.tar.gz
-!ls --color ~/data
+# Download graphs
+$ rm -rf graphs
+$ git clone https://github.com/wolfram77/graphs
+$ mkdir -p ~/data && cd graphs && cp -r data/* ~/data/
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-Stanford.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-BerkStan.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-Google.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-NotreDame.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/LAW/indochina-2004.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-Slashdot0811.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-Slashdot0902.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-Epinions1.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/soc-LiveJournal1.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coAuthorsDBLP.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coAuthorsCiteseer.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coPapersCiteseer.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/coPapersDBLP.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/italy_osm.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/great-britain_osm.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/germany_osm.tar.gz
+$ cd graphs && bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/DIMACS10/asia_osm.tar.gz
+$ ls --color ~/data
 ```
 
 <br>
@@ -39,6 +39,7 @@ download any graph. For graph drawings, see this [Photos Album].
 
 ## References
 
+- [SNAP: Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/index.html)
 - [The SuiteSparse Matrix Collection](https://suitesparse-collection-website.herokuapp.com)
 
 <br>
