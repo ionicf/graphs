@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
+# Download program
+rm -rf graphs
+git clone https://github.com/puzzlef/graphs
+cd graphs
 
-# Fetch some graphs
-mkdir -p ~/data && cp -r data/* ~/data/
+# Download & list graphs
+mkdir -p ~/data && cp -rf data/* ~/data/
 bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-Stanford.tar.gz
 bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-BerkStan.tar.gz
 bash fetch.sh ~/data https://suitesparse-collection-website.herokuapp.com/MM/SNAP/web-Google.tar.gz
