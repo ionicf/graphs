@@ -9,7 +9,7 @@ download any graph. For graph drawings, see this [Photos Album].
 <br>
 
 ```bash
-# Download graphs to ~/data/LAW, ~/data/SNAP, ...
+# Download graphs to ~/Data/LAW, ~/Data/SNAP, ...
 $ bash main.sh
 ```
 
